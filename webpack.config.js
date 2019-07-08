@@ -1,14 +1,15 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
 module.exports = {
-	mode: "development",
 	entry: {
 		index: './lib/index.tsx'
+	},
+	resolve: {
+		extensions: ['.ts', '.js', '.tsx', '.jsx']
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist/lib'),
 		library: 'LR',
-		libraryTarget: "umd"
+		libraryTarget: 'umd'
 	},
 	module: {
 		rules: [
@@ -18,10 +19,4 @@ module.exports = {
 			}
 		]
 	},
-	plugins: [
-		new HtmlWebpackPlugin({
-			title: 'LR - Learn React',
-			template: 'index.html'
-		})
-	]
-}
+};
