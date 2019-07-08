@@ -1,1 +1,6 @@
-console.log(12);
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+// import Button from './button'
+
+console.log(React);
+console.log(ReactDOM);
