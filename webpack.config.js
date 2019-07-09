@@ -16,7 +16,11 @@ module.exports = {
 			{
 				test: /\.tsx?$/,
 				loader: 'awesome-typescript-loader'
-			}
+			},
+			{
+				test: /icons.+\.svg$/,
+				loader: 'svg-sprite-loader',
+			},
 		]
 	},
 };
