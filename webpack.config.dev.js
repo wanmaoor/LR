@@ -4,7 +4,7 @@ module.exports = Object.assign({}, base, {
 	mode: 'development',
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: 'LR - Learn React',
+			title: 'NovaUI',
 			template: 'index.html'
 		})
 	]
