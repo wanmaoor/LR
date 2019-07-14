@@ -1,5 +1,5 @@
 {
-  "name": "novaui",
+  "name": "venusui",
   "version": "1.0.0",
   "description": "",
   "main": "dist/lib/index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wanmaoor/LR.git"
+    "url": "git+https://github.com/wanmaoor/VenusUI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wanmaoor/LR/issues"
+    "url": "https://github.com/wanmaoor/VenusUI/issues"
   },
-  "homepage": "https://github.com/wanmaoor/LR#readme",
+  "homepage": "https://github.com/wanmaoor/VenusUI#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.5.0",
     "@babel/preset-react": "^7.0.0",
