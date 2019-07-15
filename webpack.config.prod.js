@@ -13,6 +13,6 @@ module.exports = Object.assign({}, base, {
 			commonjs2: 'react-dom',
 			amd: 'react-dom',
 			root: 'ReactDOM',
-		}
+		},
 	}
 });

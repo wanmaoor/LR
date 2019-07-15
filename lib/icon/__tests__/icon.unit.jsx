@@ -3,14 +3,14 @@ import React from 'react';
 import Icon from '../icon';
 import {mount} from 'enzyme';
 
-describe('Icon Component Test', () => {
-	it('render success', () => {
-		const json = renderer.create(<Icon name="wechat"/>).toJSON();
+describe('icon', () => {
+	it('render successfully', () => {
+		const json = renderer.create(<Icon name="alipay"/>).toJSON();
 		expect(json).toMatchSnapshot();
 	});
 	it('onClick', () => {
 		const fn = jest.fn();
-		const component = mount(<Icon name="wechat" onClick={fn}/>);
+		const component = mount(<Icon name="alipay" onClick={fn}/>);
 		component.find('svg').simulate('click');
 		expect(fn).toBeCalled();
 	});

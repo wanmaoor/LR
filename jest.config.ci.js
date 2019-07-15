@@ -6,3 +6,4 @@ module.exports = Object.assign({}, base, {
 	coverageDirectory: 'coverage',
 	coverageReporters: ['text', 'lcov'],
 });
+
