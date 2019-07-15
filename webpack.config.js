@@ -4,12 +4,12 @@ module.exports = {
 		index: './lib/index.tsx'
 	},
 	resolve: {
-		extensions: ['.ts', '.js', '.tsx', '.jsx']
+		extensions: ['.ts', '.tsx', '.js', '.jsx'],
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist/lib'),
-		library: 'VenusUI',
-		libraryTarget: 'umd'
+		library: 'FUI',
+		libraryTarget: 'umd',
 	},
 	module: {
 		rules: [
@@ -18,11 +18,11 @@ module.exports = {
 				loader: 'awesome-typescript-loader'
 			},
 			{
-				test: /icons.+\.svg$/,
+				test: /\.svg$/,
 				loader: 'svg-sprite-loader',
 			},
 			{
-				test: /\.s([ac])ss$/,
+				test: /\.scss$/,
 				use: ['style-loader', 'css-loader', 'sass-loader']
 			}
 		]

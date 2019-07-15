@@ -1,9 +1,8 @@
-import * as React from 'react';
+import React from 'react';
+
 function Button() {
   return (
-    <div>
-      <button>button</button>
-    </div>
+    <div>button2</div>
   );
 }
 
