@@ -1,4 +1,3 @@
-// @ts-ignore
 import renderer from 'react-test-renderer';
 import * as React from 'react';
 import Button from '../button';
